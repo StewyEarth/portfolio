@@ -35,7 +35,7 @@ a{
         color: white;
     }
     .side-bar a:hover{
-        color: #F94B2B;
+        color: #01C4FF;
     }
     .side-bar{
         text-align: center;
@@ -62,7 +62,7 @@ a{
     }
     .side-bar__person-name{
         margin: .5rem 0 0 0;
-        color: #F94B2B
+        color: #01C4FF
     }
     .side-bar__person-title{
         margin-top: .5em;   
@@ -77,7 +77,7 @@ a{
     .sidebar__external-links{
         font-size: 1.2rem;
     }
-    .top-banner{
+    .top-banner__img{
         display: block;
         width: 100%;
         height: 100vh;
