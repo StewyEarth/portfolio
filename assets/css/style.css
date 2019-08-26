@@ -5,10 +5,7 @@ body{
 }
 a{
     text-decoration: none;
-    color: #F94B2B;
-}
-a:hover{
-    color: rgb(248, 112, 148);
+
 }
 .side-bar__navigation ul{
     list-style-type: none;
@@ -33,7 +30,13 @@ a:hover{
         grid-template-columns: 12em 1fr;
         height: 100vh;
     }
-
+    .side-bar a{
+        transition: color .2s;
+        color: white;
+    }
+    .side-bar a:hover{
+        color: #F94B2B;
+    }
     .side-bar{
         text-align: center;
         padding: 1em;
@@ -70,6 +73,9 @@ a:hover{
     }
     .side-bar__navigation-listitem{
         margin-bottom: 1em;
+    }
+    .sidebar__external-links{
+        font-size: 1.2rem;
     }
     .top-banner{
         display: block;
